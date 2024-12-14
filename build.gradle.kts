@@ -26,3 +26,7 @@ java {
 application {
     mainClass = "ru.job4j.Main"
 }
+
+checkstyle {
+    configFile = file("checkstyle.xml")
+}
