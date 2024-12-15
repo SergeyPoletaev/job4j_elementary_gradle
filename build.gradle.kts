@@ -30,3 +30,9 @@ application {
 checkstyle {
     configFile = file("checkstyle.xml")
 }
+
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = "ru.job4j.Main"
+    }
+}
